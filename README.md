@@ -10,7 +10,7 @@ The key goals of this suite of packages is to provide:
 1. tools for instructors allowing them to create worksheets or more open ended assignments (there is some potential feature overlap with nbgrader[https://github.com/jupyter/nbgrader], but nbgrader tools are aimed more at math and programming assignments.)
 1. easy ways to have students analyze data while properly tracking units and what analysis was done, thus facilitating grading and trouble shooting of student work.
 
-There are two basic flavors of this suite of packages: student; and instructor. The instructor flavor includes tools for generating content in worksheets that students cannot edit. The student version purposely leaves out the tools that allow editing of any cell in a notebook, so that the instructor can include unchanging instructions, examples and questions.
+There are two basic flavors of this suite of packages: student; and instructor. The instructor flavor includes tools for generating content in worksheets that students cannot edit. The student version purposely leaves out the tools that allow unlocking of locked cells in a notebook, so that the instructor can include unchanging instructions, examples and questions.
 
 # Packages
 The packages will eventually be available from PyPi (using pip for installation). Presently, they are only available from these repositories. The packages are broken up to allow using only the tools necessary.
