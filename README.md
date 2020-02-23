@@ -17,6 +17,9 @@ The packages will eventually be available from PyPi (using pip for installation)
 * _DataTable_ provides tools for generating a GUI table into which data can by typed and the data will survive clearing of the cell outputs from a notebook.
 * _InstructorTools_ provides tools for locking and unlocking text (Markdown) and code cells. The locking does not prevent clearing of cell outputs created by running a cell, just the editing of the content of these cells.
 * _JupyterPiDAQ_ provides tools for interactive data collection using A/D boards, presently only supports specific boards attached to Raspberry Pi 3B+ and above.
+* __Pseudo Packages__
+    * _Instructor_ contains all the packages.
+    * _Student_ contains _DataTable_ and _JupyterPiDAQ_.
 
 # Packages being considered
 These are packages that may be under development elsewhere, but might be included if there is interest: 
