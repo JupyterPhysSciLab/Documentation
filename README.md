@@ -2,7 +2,8 @@
 Documentation for the Jupyter Physical Science Lab Suite of Packages
 
 # Introduction
-(This project space is under construction...expected full launch May-June 2020)
+__(This project space is under construction...expected full launch May-June 2020)__
+
 The key goals of this suite of packages is to provide:
 1. an open source electronic laboratory notebook that is practical in physical science laboratories where data is collected by hand, from instrumentation and sensors;
 1. the ability to run on minimal hardware (things like the Raspberry Pi) to make it affordable for educational use;
