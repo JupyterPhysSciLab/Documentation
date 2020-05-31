@@ -24,6 +24,9 @@ The packages will eventually be available from PyPi (using pip for installation)
     * _Student_ contains _DataTable_ and _JupyterPiDAQ_.
 
 # Packages being considered
-These are packages that may be under development elsewhere, but might be included if there is interest: 
+These are packages that are under development elsewhere, but might be included if there is interest:
+
+* _[Algebra_with_SymPy](https://github.com/gutow/Algebra_with_Sympy)_ provides a definition for an equation with a lhs and a rhs. This tool applies operations to both sides of the equation simultaneously, just as students are taught to do when 
+attempting to isolate (solve for) a variable. Thus the statement `Equation/b` yields a new equation `Equation.lhs/b = Equation.rhs/b`
 * _WYSIWYGcell_ provides what you see is what you get text edit cells in Jupyter notebooks, but involves significant changes to the Jupyter notebook code, thus will either require providing a fully custom Jupyter notebook or monkey patching a current installation.
 * _SimpleUnits_ provides symbols for standard physical units usually encountered at the undergraduate level in the physical sciences. This just defines the symbols so that they can by used in sympy expressions, the students are expected to worry about unit conversions themselves.
