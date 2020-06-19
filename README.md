@@ -29,6 +29,6 @@ These are packages that are under development elsewhere, but might be included i
 
 * _[Algebra_with_SymPy](https://github.com/gutow/Algebra_with_Sympy)_ provides a definition for an equation with a lhs and a rhs. This tool applies operations to both sides of the equation simultaneously, just as students are taught to do when
 attempting to isolate (solve for) a variable. Thus the statement `Equation/b` yields a new equation `Equation.lhs/b = Equation.rhs/b`.
-* _DeltaSymbol_ allows adding a symbol in SymPy that displays as $\Delta{X}$ the common abbreviation for $X_f - X_i$, where the subscripts indicate final (f) and initial (i) values of `X`.
+* [_DeltaSymbol_](https://github.com/gutow/DeltaSymbol) allows adding a symbol in SymPy that displays as the typeset &Delta;`X` in Jupyter notbooks. Where &Delta;`X` is the common abbreviation for `final(X) - initial (X)`.
 * _WYSIWYGcell_ provides what you see is what you get text edit cells in Jupyter notebooks, but involves significant changes to the Jupyter notebook code, thus will either require providing a fully custom Jupyter notebook or monkey patching a current installation.
 * _SimpleUnits_ provides symbols for standard physical units usually encountered at the undergraduate level in the physical sciences. This just defines the symbols so that they can by used in sympy expressions, the students are expected to worry about unit conversions themselves.
