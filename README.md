@@ -16,6 +16,7 @@ There are two basic flavors of this suite of packages: student; and instructor. 
 
 # Packages
 The packages will eventually be available from PyPi (using pip for installation). Presently, they are only available from these repositories. The packages are broken up to allow using only the tools necessary.
+
 * _jupyter-datainputtable_ provides tools for generating a GUI table into which data can by typed and the data will survive clearing of the cell outputs from a notebook.
 * _jupyter-instructortools_ provides menu based tools for locking and unlocking text (Markdown) and code cells. The locking does not prevent clearing of cell outputs created by running a cell, just the editing of the content of these cells.
 * _JupyterPiDAQ_ provides menu based tools for interactive data collection using A/D boards and visualization of that data, presently only supports specific boards attached to Raspberry Pi 3B+ and above.
@@ -26,7 +27,8 @@ The packages will eventually be available from PyPi (using pip for installation)
 # Packages being considered
 These are packages that are under development elsewhere, but might be included if there is interest:
 
-* _[Algebra_with_SymPy](https://github.com/gutow/Algebra_with_Sympy)_ provides a definition for an equation with a lhs and a rhs. This tool applies operations to both sides of the equation simultaneously, just as students are taught to do when 
-attempting to isolate (solve for) a variable. Thus the statement `Equation/b` yields a new equation `Equation.lhs/b = Equation.rhs/b`
+* _[Algebra_with_SymPy](https://github.com/gutow/Algebra_with_Sympy)_ provides a definition for an equation with a lhs and a rhs. This tool applies operations to both sides of the equation simultaneously, just as students are taught to do when
+attempting to isolate (solve for) a variable. Thus the statement `Equation/b` yields a new equation `Equation.lhs/b = Equation.rhs/b`.
+* _DeltaSymbol_ allows adding a symbol in SymPy that displays as $\Delta{X}$ the common abbreviation for $X_f - X_i$, where the subscripts indicate final (f) and initial (i) values of `X`.
 * _WYSIWYGcell_ provides what you see is what you get text edit cells in Jupyter notebooks, but involves significant changes to the Jupyter notebook code, thus will either require providing a fully custom Jupyter notebook or monkey patching a current installation.
 * _SimpleUnits_ provides symbols for standard physical units usually encountered at the undergraduate level in the physical sciences. This just defines the symbols so that they can by used in sympy expressions, the students are expected to worry about unit conversions themselves.
