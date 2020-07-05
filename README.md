@@ -15,12 +15,12 @@ The key goals of this suite of packages is to provide:
 There are two basic flavors of this suite of packages: student; and instructor. The instructor flavor includes tools for generating content in worksheets that students cannot edit. The student version purposely leaves out the tools that allow unlocking of locked cells in a notebook, so that the instructor can include unchanging instructions, examples and questions.
 
 # Packages
-The packages will eventually be available from PyPi (using pip for installation). Presently, they are only available from these repositories. The packages are broken up to allow using only the tools necessary.
+The packages are available from PyPi (using pip for installation) or by installing from these repositories. The packages are broken up to allow using only the tools necessary.
 
-* _jupyter-datainputtable_ provides tools for generating a GUI table into which data can by typed and the data will survive clearing of the cell outputs from a notebook.
-* _jupyter-instructortools_ provides menu based tools for locking and unlocking text (Markdown) and code cells. The locking does not prevent clearing of cell outputs created by running a cell, just the editing of the content of these cells.
-* _JupyterPiDAQ_ provides menu based tools for interactive data collection using A/D boards and visualization of that data, presently only supports specific boards attached to Raspberry Pi 3B+ and above.
-* __Pseudo Packages__
+* [_jupyter-datainputtable_](https://github.com/JupyterPhysSciLab/jupyter-datainputtable) provides tools for generating a GUI table into which data can by typed and the data will survive clearing of the cell outputs from a notebook.
+* [_jupyter-instructortools_](https://github.com/JupyterPhysSciLab/jupyter-instructortools) provides menu based tools for locking and unlocking text (Markdown) and code cells. The locking does not prevent clearing of cell outputs created by running a cell, just the editing of the content of these cells.
+* [_JupyterPiDAQ_](https://github.com/JupyterPhysSciLab/JupyterPiDAQ) provides menu based tools for interactive data collection using A/D boards and visualization of that data, presently only supports specific boards attached to Raspberry Pi 3B+ and above.
+* __Pseudo Packages__ (under construction)
     * _Instructor_ contains all the packages.
     * _Student_ contains _DataTable_ and _JupyterPiDAQ_.
 
