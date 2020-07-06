@@ -2,7 +2,6 @@
 Documentation for the Jupyter Physical Science Lab Suite of Packages
 
 # Introduction
-__(This project space is under construction...expected full launch May-June 2020)__
 
 The key goals of this suite of packages is to provide:
 1. an open source electronic laboratory notebook that is practical in physical science laboratories where data is collected by hand, from instrumentation and sensors;
@@ -15,6 +14,8 @@ The key goals of this suite of packages is to provide:
 There are two basic flavors of this suite of packages: student; and instructor. The instructor flavor includes tools for generating content in worksheets that students cannot edit. The student version purposely leaves out the tools that allow unlocking of locked cells in a notebook, so that the instructor can include unchanging instructions, examples and questions.
 
 # Packages
+(Currently 1st beta release)
+
 The packages are available from PyPi (using pip for installation) or by installing from these repositories. The packages are broken up to allow using only the tools necessary.
 
 * [_jupyter-datainputtable_](https://github.com/JupyterPhysSciLab/jupyter-datainputtable) provides tools for generating a GUI table into which data can by typed and the data will survive clearing of the cell outputs from a notebook.
