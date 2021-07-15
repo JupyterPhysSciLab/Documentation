@@ -36,15 +36,14 @@ installing from these repositories. The packages are broken up to allow using
 only the tools necessary.
 
 * [_jupyter-datainputtable_](https://github.com/JupyterPhysSciLab/jupyter-datainputtable)
-  provides tools for generating a GUI table into which data can by typed and
+  provides tools for generating a GUI table into which data can be typed and
   the data will survive clearing of the cell outputs from a notebook.
 * [_jupyter-instructortools_](https://github.com/JupyterPhysSciLab/jupyter-instructortools)
   provides menu based tools for locking and unlocking text (Markdown) and code
-  cells. The locking does not prevent clearing of cell outputs created by
-  running a cell, just the editing of the content of these cells.
+  cells, inserting tables, some boilerplate language, etc.
 * [jupyter-pandas-GUI](https://github.com/JupyterPhysSciLab/jupyter_Pandas_GUI)
   provides jupyter widget based GUI code composers for tasks such as 
-  calculating a new column in a Pandas DataFrame or make a scatter or line 
+  calculating a new column in a Pandas DataFrame or making a scatter or line 
   plot from data in a DataFrame.
 * [_JupyterPiDAQ_](https://github.com/JupyterPhysSciLab/JupyterPiDAQ) provides
   menu based tools for interactive data collection using A/D boards and
