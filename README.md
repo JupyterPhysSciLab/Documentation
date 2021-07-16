@@ -1,9 +1,7 @@
 # Documentation
-
 Documentation for the Jupyter Physical Science Lab Suite of Packages.
 
 # Introduction
-
 The key goals of this suite of packages is to provide:
 
 1. an open source electronic laboratory notebook that is practical in physical
@@ -29,7 +27,7 @@ allow unlocking of locked cells in a notebook, so that the instructor can
 include unchanging instructions, examples and questions.
 
 # Packages
-(Currently 1st beta release)
+(Currently in beta, please try and send feedback)
 
 The packages are available from PyPi (using pip for installation) or by
 installing from these repositories. The packages are broken up to allow using
@@ -49,21 +47,21 @@ only the tools necessary.
   menu based tools for interactive data collection using A/D boards and
   visualization of that data, presently only supports specific boards attached
   to Raspberry Pi 3B+ and above.
-* __Pseudo Packages__ (under construction)
-    * _Instructor_ contains all the packages.
-    * _Student_ contains ?.
-
-# Packages being considered
-
-These are packages that are under development elsewhere, but might be included
-if there is interest:
-
 * _[Algebra_with_SymPy](https://github.com/gutow/Algebra_with_Sympy)_ provides
   a definition for an equation with a lhs and a rhs. This tool applies
   operations to both sides of the equation simultaneously, just as students are
   taught to do when attempting to isolate (solve for) a variable. Thus the
   statement `Equation/b` yields a new
   equation `Equation.lhs/b = Equation.rhs/b`.
+* __Pseudo Packages__
+    * [_Instructor_](https://github.com/JupyterPhysSciLab/JPSLInstructor) 
+      contains all the packages.
+    * [_Student_](https://github.com/JupyterPhysSciLab/JPSLStudent) 
+      contains everthing but the InstructorTools package.
+# Packages being considered
+These are packages that are under development elsewhere, but might be included
+if there is interest:
+
 * [_DeltaSymbol_](https://github.com/gutow/DeltaSymbol) allows adding a symbol
   in SymPy that displays as the typeset &Delta;`X` in Jupyter notbooks. Where
   &Delta;`X` is the common abbreviation for `final(X) - initial (X)`.
