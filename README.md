@@ -4,7 +4,7 @@ Documentation for the Jupyter Physical Science Lab Suite of Packages.
 [Introduction](#introduction) | [Try It](#try-it) | [Quick
 Start](#quick-start) | 
 [Packages](#packages) | [Packages being 
-considerd](#packages-being-considerd) | 
+considerd](#packages-being-considered) | 
 [License](#this-software-is-distributed-under-the-gnu-v3-licensehttpsgnuorglicenses)
 # Introduction
 The key goals of this suite of packages is to provide:
