@@ -1,7 +1,8 @@
 # Documentation
 Documentation for the Jupyter Physical Science Lab Suite of Packages.
 
-[Introduction](#introduction) | [Quick Start](#quick-start) | 
+[Introduction](#introduction) | [Try It](#try-it) | [Quick
+Start](#quick-start) | 
 [Packages](#packages) | [Packages being 
 considerd](#packages-being-considerd) | 
 [License](#this-software-is-distributed-under-the-gnu-v3-licensehttpsgnuorglicenses)
@@ -27,12 +28,17 @@ The key goals of this suite of packages is to provide:
 
 There are two basic flavors of this suite of packages: student; and instructor.
 The instructor flavor includes tools for generating content in worksheets that
-students cannot edit. As well ways to control what is displayed to the 
+students cannot edit. As well as ways to control what is displayed to the 
 students and in the final version submitted for grading. The student version 
 purposely leaves out the tools that
 allow unlocking of locked cells in a notebook, so that the instructor can
 include unchanging instructions, examples and questions.
-
+# Try it
+You can try the parts of Jupyter Physical Science lab without installing 
+anything. The packages can be run in the cloud. Links to do this are 
+provided on the Github pages for each package. It is recommended that you 
+start with [JPSLInstructor](https://github.com/JupyterPhysSciLab/JPSLInstructor),
+which includes all the supported packages.
 # Quick Start
 1. Install python on your machine, if necessary.
     1. Check current system python install by opening a command line 
@@ -126,6 +132,9 @@ if there is interest:
 * [_jupyter-wysiwyg_](https://github.com/genepattern/jupyter-wysiwyg) provides
   a what you see is what you get mode for Markdown/Richtext cells activated by
   clicking a button.
+* A customized version of the [_snippets menu_](https://github.com/moble/jupyter_boilerplate).
+  This would be a very limited snippets menu that inserts common initialization
+  code to start elements of JPSL and markdown formatting hints/templates.
 * _WYSIWYGcell_ provides what you see is what you get text edit cells in
   Jupyter notebooks, but involves significant changes to the Jupyter notebook
   code, thus will either require providing a fully custom Jupyter notebook or
