@@ -1,4 +1,4 @@
-# Documentation
+# Jupyter Physical Science Lab Suite (Docs)
 Documentation for the Jupyter Physical Science Lab Suite of Packages.
 
 [Introduction](#introduction) | [Try It](#try-it) | [Quick
@@ -103,7 +103,7 @@ only the tools necessary.
 * [_jupyter-instructortools_](https://github.com/JupyterPhysSciLab/jupyter-instructortools)
   provides menu based tools for locking and unlocking text (Markdown) and code
   cells, inserting tables, some boilerplate language, etc.
-* [jupyter-pandas-GUI](https://github.com/JupyterPhysSciLab/jupyter_Pandas_GUI)
+* [jupyter-pandas-GUI](https://jupyterphysscilab.github.io/jupyter_Pandas_GUI/)
   provides jupyter widget based GUI code composers for tasks such as 
   calculating a new column in a Pandas DataFrame or making a scatter or line 
   plot from data in a DataFrame.
