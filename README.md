@@ -6,7 +6,9 @@ Start](#quick-start) |
 [Packages](#packages) | [Packages being 
 considerd](#packages-being-considered) | 
 [License](#this-software-is-distributed-under-the-gnu-v3-licensehttpsgnuorglicenses)
+
 # Introduction
+
 The key goals of this suite of packages is to provide:
 
 1. an open source electronic laboratory notebook that is practical in physical
@@ -20,8 +22,8 @@ The key goals of this suite of packages is to provide:
 5. tools for instructors allowing them to create worksheets or more open-ended
    assignments (there is some potential feature overlap
    with [nbgrader](https://github.com/jupyter/nbgrader), but nbgrader tools are
-   aimed more at math and programming assignments.)
-6. ability to generate compact pdf formatted "reports" for grading.
+   aimed more at math and programming assignments);
+6. ability to generate compact pdf formatted "reports" for grading;
 7. easy ways to have students analyze data while properly tracking units and
    what analysis was done, thus facilitating grading and trouble-shooting of
    student work.
@@ -33,13 +35,17 @@ students and in the final version submitted for grading. The student version
 purposely leaves out the tools that
 allow unlocking of locked cells in a notebook, so that the instructor can
 include unchanging instructions, examples and questions.
+
 # Try it
+
 You can try the parts of Jupyter Physical Science lab without installing 
 anything. The packages can be run in the cloud. Links to do this are 
 provided on the Github pages for each package. It is recommended that you 
 start with [JPSLInstructor](https://github.com/JupyterPhysSciLab/JPSLInstructor),
 which includes all the supported packages.
+
 # Quick Start
+
 1. Install python on your machine, if necessary.
     1. Check current system python install by opening a command line 
        terminal and issuing the command `$ python3 --version`. If it is >= 3.
@@ -53,13 +59,19 @@ which includes all the supported packages.
    1. I recommend you use this so that you can have both an "instructor"
    and "student" environment for testing.
    2. I personally like using [pipenv](https://pipenv.pypa.io/en/latest/).
-   You can install it using the command `$ pip3 --user install pipenv`.
+   You can install it using the command `$ pip3 --user install pipenv`. On 
+      Windows you will probably have to do `python3 -m pip --user install 
+      pipenv`.
    See the website for more information.
 3. Set up an instructor work environment.
    1. Create a directory to contain your virtual environment and navigate 
       into it (in *nix: `cd path-to-directory`).
-   2. Create the empty virtual environment `$ pipenv shell`. This will
+   2. Create the empty virtual environment `$ pipenv shell` (on Windows 
+      `python3 -m pipenv shell`). This will
        create the environment, activate it and leave you inside it. 
+      **WARNING**: 
+      on Windows I have seen it move you to another directory. If it does 
+      this navigate back using the `cd` command. 
    3. Still within the environment use pip to install the [JPSLInstructor 
       pseudo package](https://github.com/JupyterPhysSciLab/JPSLInstructor)
    `$ pip install JPSLInstructor`. This will take a while 
@@ -90,6 +102,7 @@ which includes all the supported packages.
       directory.
    6. After quiting the Jupyter notebook server you can exit the virtual 
       environment with the command `$ exit`.
+
 # Packages
 (Currently in beta, please try and send feedback)
 
@@ -97,49 +110,49 @@ The packages are available from PyPi (using pip for installation) or by
 installing from these repositories. The packages are broken up to allow using
 only the tools necessary.
 
-* [_jupyter-datainputtable_](https://github.com/JupyterPhysSciLab/jupyter-datainputtable)
+* [*jupyter-datainputtable*](https://github.com/JupyterPhysSciLab/jupyter-datainputtable)
   provides tools for generating a GUI table into which data can be typed and
   the data will survive clearing of the cell outputs from a notebook.
-* [_jupyter-instructortools_](https://github.com/JupyterPhysSciLab/jupyter-instructortools)
+* [*jupyter-instructortools*](https://github.com/JupyterPhysSciLab/jupyter-instructortools)
   provides menu based tools for locking and unlocking text (Markdown) and code
   cells, inserting tables, some boilerplate language, etc.
-* [jupyter-pandas-GUI](https://jupyterphysscilab.github.io/jupyter_Pandas_GUI/)
+* [*jupyter-pandas-GUI*](https://jupyterphysscilab.github.io/jupyter_Pandas_GUI/)
   provides jupyter widget based GUI code composers for tasks such as 
   calculating a new column in a Pandas DataFrame or making a scatter or line 
   plot from data in a DataFrame.
-* [_JupyterPiDAQ_](https://github.com/JupyterPhysSciLab/JupyterPiDAQ) provides
+* [*JupyterPiDAQ*](https://jupyterphysscilab.github.io/JupyterPiDAQ/) provides
   menu based tools for interactive data collection using A/D boards and
   visualization of that data, presently only supports specific boards attached
   to Raspberry Pi 3B+ and above.
-* _[Algebra_with_SymPy](https://github.com/gutow/Algebra_with_Sympy)_ provides
+* *[Algebra_with_SymPy](https://gutow.github.io/Algebra_with_Sympy/)* provides
   a definition for an equation with a lhs and a rhs. This tool applies
   operations to both sides of the equation simultaneously, just as students are
   taught to do when attempting to isolate (solve for) a variable. Thus the
   statement `Equation/b` yields a new
   equation `Equation.lhs/b = Equation.rhs/b`.
-* __Pseudo Packages__
-    * [_JPSLInstructor_](https://github.com/JupyterPhysSciLab/JPSLInstructor) 
+* **Pseudo Packages**
+    * [*JPSLInstructor*](https://github.com/JupyterPhysSciLab/JPSLInstructor) 
       contains all the packages.
-    * [_JPSLStudent_](https://github.com/JupyterPhysSciLab/JPSLStudent) 
-      contains everthing but the InstructorTools package.
+    * [*JPSLStudent*](https://github.com/JupyterPhysSciLab/JPSLStudent) 
+      contains everything but the InstructorTools package.
 # Packages being considered
 These are packages that are under development elsewhere, but might be included
 if there is interest:
 
-* [_DeltaSymbol_](https://github.com/gutow/DeltaSymbol) allows adding a symbol
+* [*DeltaSymbol*](https://github.com/gutow/DeltaSymbol) allows adding a symbol
   in SymPy that displays as the typeset &Delta;`X` in Jupyter notbooks. Where
   &Delta;`X` is the common abbreviation for `final(X) - initial (X)`.
-* [_jupyter-wysiwyg_](https://github.com/genepattern/jupyter-wysiwyg) provides
+* [*jupyter-wysiwyg*](https://github.com/genepattern/jupyter-wysiwyg) provides
   a what you see is what you get mode for Markdown/Richtext cells activated by
   clicking a button.
-* A customized version of the [_snippets menu_](https://github.com/moble/jupyter_boilerplate).
+* A customized version of the [*snippets menu*](https://github.com/moble/jupyter_boilerplate).
   This would be a very limited snippets menu that inserts common initialization
   code to start elements of JPSL and markdown formatting hints/templates.
-* _WYSIWYGcell_ provides what you see is what you get text edit cells in
+* *WYSIWYGcell* provides what you see is what you get text edit cells in
   Jupyter notebooks, but involves significant changes to the Jupyter notebook
   code, thus will either require providing a fully custom Jupyter notebook or
   monkey patching a current installation.
-* _SimpleUnits_ provides symbols for standard physical units usually
+* *SimpleUnits* provides symbols for standard physical units usually
   encountered at the undergraduate level in the physical sciences. This just
   defines the symbols so that they can by used in sympy expressions, the
   students are expected to worry about unit conversions themselves.
@@ -154,4 +167,4 @@ This program is free software: you can redistribute it and/or modify
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
-Copyright - Jonathan Gutow, 2021.
+Copyright - Jonathan Gutow, 2021, 2022.
