@@ -50,7 +50,7 @@ which includes all the supported packages.
 
 1. Install python on your machine, if necessary.
     1. Check current system python install by opening a command line 
-       terminal and issuing the command `$ python3 --version`. If it is >= 3.
+       terminal and issuing the command `python3 --version`. If it is >= 3.
        7 you can use it. Otherwise, follow the next step to install a 
        newer version.
     2. Get the installer for your computer from [python.org](https://python.org).
@@ -61,14 +61,14 @@ which includes all the supported packages.
    1. I recommend you use this so that you can have both an "instructor"
    and "student" environment for testing.
    2. I personally like using [pipenv](https://pipenv.pypa.io/en/latest/).
-   You can install it using the command `$ pip3 --user install pipenv`. On 
+   You can install it using the command `pip3 --user install pipenv`. On 
       Windows you will probably have to do `python3 -m pip --user install 
       pipenv`.
    See the website for more information.
 3. Set up an instructor work environment.
    1. Create a directory to contain your virtual environment and navigate 
       into it (in *nix: `cd path-to-directory`).
-   2. Create the empty virtual environment `$ pipenv shell` (on Windows 
+   2. Create the empty virtual environment `pipenv shell` (on Windows 
       `python3 -m pipenv shell`). This will
        create the environment, activate it and leave you inside it. 
       **WARNING**: 
@@ -76,34 +76,34 @@ which includes all the supported packages.
       this navigate back using the `cd` command. 
    3. Still within the environment use pip to install the [JPSLInstructor 
       pseudo package](https://github.com/JupyterPhysSciLab/JPSLInstructor)
-   `$ pip install JPSLInstructor`. This will take a while 
+   `pip install JPSLInstructor`. This will take a while 
       to run. There are a lot of packages to download and install.
    4. Example notebooks are not installed by pip. You should download the 
       [JPSLInstructor pseudo package](https://github.com/JupyterPhysSciLab/JPSLInstructor)
    as a zip file and extract the `Examples` folder into the directory for this
    virtual environment.
    5. To work with the software launch the jupyter notebook with the 
-      command `$ juptyer notebook`. This will launch a local jupyter server 
+      command `juptyer notebook`. This will launch a local jupyter server 
       on your machine and open a page connected to it in your web browser 
       (Chrome and Firefox work best).
    6. Open an example notebook to try things.
    7. After quiting the Jupyter notebook server you can exit the virtual 
-      environment with the command `$ exit`.
+      environment with the command `exit`.
 4. Set up a student work environment for testing.
    1. Create a directory to contain your virtual environment and navigate 
          into it (in *nix: `cd path-to-directory`).
-   2. Create the empty virtual environment `$ pipenv shell`. This will
+   2. Create the empty virtual environment `pipenv shell`. This will
        create the environment, activate it and leave you inside it. 
    3. Still within the environment use pip to install the [JPSLStudent 
       pseudo package](https://github.com/JupyterPhysSciLab/JPSLStudent)
-   `$ pip install JPSLStudent`. This will take a while 
+   `pip install JPSLStudent`. This will take a while 
       to run. There are a lot of packages to download and install.
    4. To work with the software launch the jupyter notebook with the 
-      command `$ juptyer notebook`.
+      command `juptyer notebook`.
    5. Copy notebooks you want to see from a student perspective into this 
       directory.
    6. After quiting the Jupyter notebook server you can exit the virtual 
-      environment with the command `$ exit`.
+      environment with the command `exit`.
 
 # Packages
 (Currently in beta, please try and send feedback)
