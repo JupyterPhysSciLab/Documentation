@@ -1,10 +1,12 @@
-# Jupyter Physical Science Lab Suite (Docs)
+# Jupyter Physical Science Lab Suite (JPSL)
 Documentation for the Jupyter Physical Science Lab Suite of Packages.
 
 [Introduction](#introduction) | [Try It](#try-it) | [Quick
 Start](#quick-start) | 
 [Packages](#packages) | [Packages being 
 considerd](#packages-being-considered) | 
+[JPSL Project Repository](https://github.com/JupyterPhysSciLab) | 
+[JPSL Documentation Repository](https://github.com/JupyterPhysSciLab/Documentation) | 
 [License](#this-software-is-distributed-under-the-gnu-v3-licensehttpsgnuorglicenses)
 
 # Introduction
