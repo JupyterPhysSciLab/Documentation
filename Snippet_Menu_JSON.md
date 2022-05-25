@@ -1,5 +1,5 @@
 JSON string that can be copied into the Snippets menu custom content window 
-to provice snippets for initializing some of the JPSL tools.
+to provide snippets for initializing some of the JPSL tools.
 ```
 { "name":"JPSL","sub-menu":[
 {

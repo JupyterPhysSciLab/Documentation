@@ -145,9 +145,9 @@ if there is interest:
 * [*jupyter-wysiwyg*](https://github.com/genepattern/jupyter-wysiwyg) provides
   a what you see is what you get mode for Markdown/Richtext cells activated by
   clicking a button.
-* A customized version of the [*snippets menu*](https://github.com/moble/jupyter_boilerplate).
-  This would be a very limited snippets menu that inserts common initialization
-  code to start elements of JPSL and markdown formatting hints/templates.
+* [*snippets menu*](https://github.com/moble/jupyter_boilerplate). The JSON 
+  definitions of some menu entries to initialize JPSL tools are available 
+  [here](./Snippet_Menu_JSON.md).
 * *WYSIWYGcell* provides what you see is what you get text edit cells in
   Jupyter notebooks, but involves significant changes to the Jupyter notebook
   code, thus will either require providing a fully custom Jupyter notebook or
