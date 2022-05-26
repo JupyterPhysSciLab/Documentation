@@ -137,6 +137,7 @@ only the tools necessary.
       contains all the packages.
     * [*JPSLStudent*](https://github.com/JupyterPhysSciLab/JPSLStudent) 
       contains everything but the InstructorTools package.
+
 # Packages being considered
 These are packages that are under development elsewhere, but might be included
 if there is interest:
