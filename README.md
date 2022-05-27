@@ -151,6 +151,8 @@ if there is interest:
 * [*snippets menu*](https://github.com/moble/jupyter_boilerplate). The JSON 
   definitions of some menu entries to initialize JPSL tools are available 
   [here](./Snippet_Menu_JSON.md).
+* [*ipysketch*](https://github.com/maroba/ipysketch). Tool for making and 
+  embedding sketches in a notebook.
 * *WYSIWYGcell* provides what you see is what you get text edit cells in
   Jupyter notebooks, but involves significant changes to the Jupyter notebook
   code, thus will either require providing a fully custom Jupyter notebook or
