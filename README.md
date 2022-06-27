@@ -153,6 +153,10 @@ if there is interest:
   [here](./Snippet_Menu_JSON.md).
 * [*ipysketch*](https://github.com/maroba/ipysketch). Tool for making and 
   embedding sketches in a notebook.
+* [*ipysheet*](https://github.com/QuantStack/ipysheet). Tool that provides 
+  a widgets based alternative to [*jupyter-datainputtable*
+  ](https://github.com/JupyterPhysSciLab/jupyter-datainputtable). To use, 
+  data persistence will have to be addressed.
 * *WYSIWYGcell* provides what you see is what you get text edit cells in
   Jupyter notebooks, but involves significant changes to the Jupyter notebook
   code, thus will either require providing a fully custom Jupyter notebook or
