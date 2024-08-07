@@ -20,7 +20,9 @@ The key goals of this suite of packages is to provide:
    make it affordable for educational use;
 3. adaptability, allowing for use in a variety of teaching situations;
 4. GUI elements that allow students in introductory courses without programming
-   experience to collect data and analyze it;
+   experience to collect data and analyze it, while also facilitating 
+   scaffolding learning to write data analysis code/scripts in more advanced 
+   course;
 5. tools for instructors allowing them to create worksheets or more open-ended
    assignments (there is some potential feature overlap
    with [nbgrader](https://github.com/jupyter/nbgrader), but nbgrader tools are
@@ -83,9 +85,10 @@ which includes all the supported packages.
    as a zip file and extract the `Examples` folder into the directory for this
    virtual environment.
    5. To work with the software launch the jupyter notebook with the 
-      command `juptyer notebook`. This will launch a local jupyter server 
-      on your machine and open a page connected to it in your web browser 
-      (Chrome and Firefox work best).
+      command `jupyter lab` (for the complex user interface) or `juptyer 
+      notebook` (for the simplified user interface). This will 
+      launch a local jupyter server on your machine and open a page 
+      connected to it in your web browser (Chrome and Firefox work best).
    6. Open an example notebook to try things.
    7. After quiting the Jupyter notebook server you can exit the virtual 
       environment with the command `exit`.
@@ -99,14 +102,15 @@ which includes all the supported packages.
    `pip install JPSLStudent`. This will take a while 
       to run. There are a lot of packages to download and install.
    4. To work with the software launch the jupyter notebook with the 
-      command `juptyer notebook`.
+      command `juptyer notebook` (the simplified interface is recommended 
+      most use with students).
    5. Copy notebooks you want to see from a student perspective into this 
       directory.
    6. After quiting the Jupyter notebook server you can exit the virtual 
       environment with the command `exit`.
 
 # Packages
-(Currently in beta, please try and send feedback)
+(Under active development, please try and send feedback)
 
 The packages are available from PyPi (using pip for installation) or by
 installing from these repositories. The packages are broken up to allow using
@@ -120,18 +124,29 @@ only the tools necessary.
   cells, inserting tables, some boilerplate language, etc.
 * [*jupyter-pandas-GUI*](https://jupyterphysscilab.github.io/jupyter_Pandas_GUI/)
   provides jupyter widget based GUI code composers for tasks such as 
-  calculating a new column in a Pandas DataFrame or making a scatter or line 
-  plot from data in a DataFrame.
+  calculating a new column in a Pandas DataFrame, making a scatter or line 
+  plot from data in a DataFrame, or fitting data in a DataFrame.
 * [*JupyterPiDAQ*](https://jupyterphysscilab.github.io/JupyterPiDAQ/) provides
-  menu based tools for interactive data collection using A/D boards and
-  visualization of that data, presently only supports specific boards attached
-  to Raspberry Pi 3B+ and above.
+  tools for interactive data collection using A/D boards and
+  visualization of that data, presently supports specific boards attached
+  to Raspberry Pi 3B+ or above and sensors connected to Vernier LabQuest 
+  interfaces.
+* [*jupyterpidaq_menu*](https://github.com/JupyterPhysSciLab/JupyterPiDAQ_Menu)
+  provides a menu of useful commands for initiating 
+  data collections and analyzing data.
+* [*JPSL_Tools_Menu*](https://github.com/JupyterPhysSciLab/JPSL_Tools_Menu)
+  provides a convenience menu with access to documentation on the parts of 
+  the Jupyter Physical Science Lab and menu items to insert common 
+  initialization code, commands to activate each tool and control hiding of 
+  cells for printing.
 * *[Algebra_with_SymPy](https://gutow.github.io/Algebra_with_Sympy/)* provides
   a definition for an equation with a lhs and a rhs. This tool applies
   operations to both sides of the equation simultaneously, just as students are
   taught to do when attempting to isolate (solve for) a variable. Thus the
   statement `Equation/b` yields a new
-  equation `Equation.lhs/b = Equation.rhs/b`.
+  equation `Equation.lhs/b = Equation.rhs/b`. This facilitates clearly 
+  documented symbolic algebraic manipulations and calculations with units 
+  included.
 * **Pseudo Packages**
     * [*JPSLInstructor*](https://github.com/JupyterPhysSciLab/JPSLInstructor) 
       contains all the packages.
@@ -148,9 +163,6 @@ if there is interest:
 * [*jupyter-wysiwyg*](https://github.com/genepattern/jupyter-wysiwyg) provides
   a what you see is what you get mode for Markdown/Richtext cells activated by
   clicking a button.
-* [*snippets menu*](https://github.com/moble/jupyter_boilerplate). The JSON 
-  definitions of some menu entries to initialize JPSL tools are available 
-  [here](./Snippet_Menu_JSON.md).
 * [*ipysketch*](https://github.com/maroba/ipysketch). Tool for making and 
   embedding sketches in a notebook.
 * [*ipysheet*](https://github.com/QuantStack/ipysheet). Tool that provides 
@@ -161,10 +173,6 @@ if there is interest:
   Jupyter notebooks, but involves significant changes to the Jupyter notebook
   code, thus will either require providing a fully custom Jupyter notebook or
   monkey patching a current installation.
-* *SimpleUnits* provides symbols for standard physical units usually
-  encountered at the undergraduate level in the physical sciences. This just
-  defines the symbols so that they can by used in sympy expressions, the
-  students are expected to worry about unit conversions themselves.
 
 ##### [This software is distributed under the GNU V3 license](https://gnu.org/licenses)
 This program is free software: you can redistribute it and/or modify
@@ -176,4 +184,4 @@ This program is free software: you can redistribute it and/or modify
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU General Public License for more details.
 
-Copyright - Jonathan Gutow, 2021, 2022.
+Copyright - Jonathan Gutow, 2021 - 2024.
